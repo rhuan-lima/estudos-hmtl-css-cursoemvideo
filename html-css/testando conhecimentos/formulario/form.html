@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="images/rhuan-favicon.ico" type="image/x-icon">
+    <title>The Form</title>
+</head>
+
+<body>
+
+    <div>
+        <h1 id="title">Try Me</h1><br>
+    </div>
+
+    <div>
+        <fieldset>              <!--Início do formulário, onde pergunto quem é o usuário-->
+            <legend id="subtitle"><strong>Tell us who you are!</strong></legend>
+            <form action="" method="">
+                <div>
+                    <p>
+                        <label for="name">Name: </label>
+                        <input type="text" id="name">
+                        <strong><abbr title="Required">*</abbr></strong>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label for="email">E-mail: </label>
+                        <input type="email" id="email">
+                        <strong><abbr title="Required">*</abbr></strong>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label for="age">Age: </label>
+                        <input type="text" id="age">
+                        <strong><abbr title="Required">*</abbr></strong>
+                    </p>
+                </div>
+            </form>
+        </fieldset>
+    </div><br>
+
+    <div>
+        <fieldset>                  <!--fieldset criado agora para saber das preferências do usuário-->
+            <legend id="subtitle"><strong>How many of these do you like?</strong></legend>
+            <form>
+                <p>
+                    <label for="taste_1">I like cherry</label>
+                    <input type="checkbox" id="taste_1" name="taste_cherry" value="1"><br>
+                    <label for="taste_2">I like banana</label>
+                    <input type="checkbox" id="taste_2" name="taste_banana" value="2"><br>
+                    <label for="taste_2">I like banana</label>
+                    <input type="checkbox" id="taste_2" name="taste_banana" value="2"><br>
+                    <label for="taste_2">I like banana</label>
+                    <input type="checkbox" id="taste_2" name="taste_banana" value="2"><br>
+                    <label for="taste_2">I like banana</label>
+                    <input type="checkbox" id="taste_2" name="taste_banana" value="2"><br>
+                </p>
+            </form>
+            <br>
+            <form>
+                <p>
+                    <label for="taste_1">I like cherry</label>
+                    <input type="checkbox" id="taste_1" name="taste_cherry" value="1"><br>
+                    <label for="taste_2">I like banana</label>
+                    <input type="checkbox" id="taste_2" name="taste_banana" value="2"><br>
+                    <label for="taste_2">I like banana</label>
+                    <input type="checkbox" id="taste_2" name="taste_banana" value="2"><br>
+                    <label for="taste_2">I like banana</label>
+                    <input type="checkbox" id="taste_2" name="taste_banana" value="2"><br>
+                    <label for="taste_2">I like banana</label>
+                    <input type="checkbox" id="taste_2" name="taste_banana" value="2"><br>
+                </p>
+            </form>
+        </fieldset><br>
+    </div>
+
+    <div>
+        <h2 id="title">Anything else? Insert here any other considerations!</h2><br>
+    </div>
+
+    <div>
+        <form>
+            <label for="msg">Message: </label><br>
+            <textarea name="message" id="msg" cols="30" rows="05"></textarea>
+        </form>
+    </div><br>
+
+    <div class="button">
+        <button type="submit" class="button">Submit now!</button>
+    </div><br>
+
+    <footer>&copy; 2021 Rhuan Lima</footer>
+</body>
+
+</html>
