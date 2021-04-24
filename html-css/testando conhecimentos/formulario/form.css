@@ -49,12 +49,15 @@ textarea,
 button {
     color: #59429d;
     border-radius: 5px;
+    
 }
 
 #msg {
     margin-top: 10px;
     background-color: #87CEEB;
     border-radius: 12px;
+    margin: 4px;
+    width: 500px;
 }
 
 .button {

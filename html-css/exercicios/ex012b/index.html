@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vídeos com HTML5</title>
+    <title>Vídeos em HTML5</title>
 </head>
+
 <body>
-    <h1><ins>Inserindo vídeos hospedados localmente</ins></h1>
-    <p>Este vídeo está hospeado no meu servidor próprio: </p>
-    <video>
-        <source>
+    <h1>Vídeos Locais</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <!-- para que em qualquer site se inicie um vídeo automático, definir a tag <video controls autoplay muted>, pois em alguns browsers não aceitam a reprodução automática -->
+    <video width="450px" poster="imagens/limoes-capa.png" controls loop>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/m4v">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogv">
+        <p>Seu navegador não reproduz vídeos.</p>
     </video>
 
-    <h1>Inserindo vídeos do Youtube</h1>            <!--vídeos externos, que são mais pesados-->
-    <iframe src="" frameborder="0"></iframe>
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RfbfnwgsvW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    <h1>Inserindo Vídeos do Vimeo</h1>
-    <iframe src="" frameborder="0"></iframe>
-    
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/539430817?title=0&byline=0&portrait=0&badge=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
 </body>
+
 </html>
