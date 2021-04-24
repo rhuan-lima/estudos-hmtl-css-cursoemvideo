@@ -1,14 +1,17 @@
+/* usando o * você dá propriedades para todos os itens da página */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* deixei todo o body padronizado em cor de fundo, tipo e cor da fonte */
 body {
     background-color: black;
     font-family: Verdana;
     color: white;
 }
 
+/* com o uso da flex box, centralizei todo o conteudo das divs em que especifiquei a classe container */
 .container {
     margin-top: 15px;
     display: flex;
